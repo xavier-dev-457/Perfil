@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Perfil</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>    
+<body>
+    <header>
+        <h1>Mi Perfil</h1>
+    </header>
+    <section>
+        <h2> Sobre Mí</h2>
+        <p>Me llamo Charbel, tengo 20 años, me gusta el inglés, los videojuegos y me gusta aprender programación </p>
+    </section>
+    <section>
+        <h2>Experiencia</h2>
+        <p>Hace unos meses estudié un curso de programación de TypeScript, y actualmente estoy aprendiendo sobre varias cosas entre ellas programación y comenzando a desarrollar páginas web con HTML</p>
+    </section>
+    <section>
+        <h2>Educación</h2>
+        <p>Actualmente estudio en la IUTA y estoy cursando Informática</p>
+    </section>
+    <section id="contacto">
+
+    <h2>Contacto</h2>
+
+   <p>Formulario de demostración para validar y enviar datos mediante JavaScript.</p>
+    <form id="formularioContacto" novalidate>
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" placeholder="Escribe tu nombre" required>
+
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" placeholder="Escribe tu correo" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" placeholder="Escribe tu mensaje" required></textarea>
+
+        <button type="submit">Enviar mensaje</button>
+
+    </form>
+
+    <p id="respuesta" role="status" aria-live="polite"></p>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+
+</html> 

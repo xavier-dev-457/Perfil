@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Encabezado */
+header {
+    background-color: #2563eb;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/* Secciones del perfil */
+section {
+    background-color: white;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #00000015;
+}
+
+/* Títulos */
+h2 {
+    color: #2563eb;
+    margin-bottom: 15px;
+}
+
+/* Párrafos */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Diseño para tabletas */
+@media (max-width: 768px) {
+    body {
+        padding: 15px;
+    }
+
+    section {
+        padding: 20px;
+    }
+}
+
+/* Diseño para celulares */
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    header {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    section {
+        padding: 15px;
+    }
+}
+
+#formularioContacto {
+    display: flex;
+    flex-direction: column;
+}
+
+#formularioContacto label {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#formularioContacto input,
+#formularioContacto textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    width: 100%;
+}
+
+#formularioContacto textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+/* Botón de enviar */
+
+#formularioContacto button {
+    background-color: #2563eb;
+    color: white;
+    padding: 12px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Efecto al pasar el mouse */
+
+#formularioContacto button:hover {
+    background-color: #1d4ed8;
+}
+
+/* Mensaje de respuesta */
+
+#respuesta {
+    margin-top: 15px;
+    font-weight: bold;
+    text-align: center;
+}
